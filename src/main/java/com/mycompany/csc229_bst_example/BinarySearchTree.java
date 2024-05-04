@@ -76,7 +76,7 @@ public class BinarySearchTree {
     }
     public Integer findHeight() {
 
-        return getHeight(root)
+        return getHeight(root);
     }
 
     private int getHeight(BstNode node) {
@@ -89,7 +89,7 @@ public class BinarySearchTree {
 
 
     public int getDepth(BstNode node) {
-        return findDepth(root, node, 0)
+        return findDepth(root, node, 0);
     }
     private int findDepth(BstNode root, BstNode node, int depth) {
         if (root == null)
